@@ -1,0 +1,12 @@
+p {
+  color: black;
+}
+.myclass {
+  color: blue;
+}
+
+.big-text {
+  color: green;
+  font-size: 20px;
+  padding: 20px;
+}
