@@ -1,12 +1,30 @@
 p {
   color: black;
 }
-.myclass {
+.blue-text {
   color: blue;
 }
 
-.big-text {
+.green-text {
+  border: 2px dashed green;
   color: green;
   font-size: 20px;
   padding: 20px;
+  margin: 1px;
+}
+
+.blockche {
+  display: block;
+  
+  padding: 10px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.div-element {
+  background-color: #f1f1f1;
+  border: 2px solid black;
+  margin: 20px 0;
+  padding: 20px;
+  text-align: center;  
 }
