@@ -1,84 +1,54 @@
-body,
+bbody,
 html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f1f1f1;
-    background-image: chapter_5_season_1_update.jpg;
+    background-color: #434343;
     height: 100%;
 }
 
 .header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
-
+    direction: row;
     padding: 15px;
     background-color: #3f3f3f;
     color: white;
     width: 100px;
     height: 100%;
 }
-
-a {
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-
-
+.festival{
+    border-radius: 5px;
+    margin-left: 5px;
 }
-
-.menu {
-    display: flex;
-    flex-direction: column;
+.zaglavie{
+    font: cursive, Copperplate;
+    margin-left: 5px;
+    color: rgb(217, 217, 217);
 }
-
-a:hover {
-    color: #fffa62;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #757575;
+.images
+{
+    direction: row;
 }
-
-.main-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    column-gap: 10px;
-
+.lego
+{
+    border-radius: 5px;
+    margin-left: 5px;
 }
-
-.tools {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    column-gap: 10px;
+.party{
+    border-radius: 5px;
+    margin-left: 5px;
 }
-
-.container {
-    display: flex;
-    flex-direction: column;
+.Zero{
+    border-radius: 5px;
+    margin-left: 5px;
 }
-
-.content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: flex-start;
+.Br{
+    border-radius: 5px;
+    margin-left: 5px;
 }
-
-.card {
-    height: 50px;
-    width: 50px;
-    background-color: cornflowerblue;
-    border-radius: 10px;
-    margin: 10px;
-
-}
-
-.page {
-    display: flex;
-    height: 100%;
-
+.rocket{
+    border-radius: 5px;
+    margin-left: 5px;
 }
